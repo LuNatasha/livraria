@@ -1,1 +1,1 @@
-# Livraria\nProjeto Livraria.
+# Livraria\nProjeto Spring Boot para gerenciar livros.
