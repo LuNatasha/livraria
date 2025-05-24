@@ -1,6 +1,15 @@
 package com.example.livraria.model;
 
-@Entity;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Positive;
+import jakarta.validation.constraints.Size;
+import jakarta.validation.constraints.Min;
+
+@Entity
 
 public class Livros{
 
@@ -15,11 +24,9 @@ public class Livros{
     @NotBlank
     private String autor;
 
-    @NotBlank
     @Positive
     private double preco;
 
-    @NotBlank
     @Min(value = 0)
     private int estoque;
 
