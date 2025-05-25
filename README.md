@@ -1,18 +1,39 @@
-# Livraria
+# 📚 Livraria - API REST com Spring Boot
 
-Projeto desenvolvido em Spring Boot que simula uma API para gerenciamento de livros em uma livraria.
+Projeto desenvolvido como **atividade acadêmica** para simular uma API REST de gerenciamento de uma livraria. A aplicação permite o cadastro, consulta e controle de estoque de livros, utilizando um banco de dados em memória (**H2**) para persistência.
 
-## Funcionalidades
+---
 
-- Cadastro de livros com título, autor, preço e estoque.
-- Consulta de livros cadastrados.
-- Atualização e exclusão de livros (a implementar).
-- Persistência de dados usando banco em memória H2.
+## 🎯 Objetivos da Atividade
 
-## Tecnologias usadas
+- Praticar o desenvolvimento de APIs RESTful com **Spring Boot**.
+- Compreender a estrutura de uma aplicação backend com **Java**.
+- Utilizar **Spring Data JPA** para manipulação de dados em banco.
+- Aplicar conceitos de modelagem de entidades, rotas HTTP e persistência.
+- Desenvolver e testar a aplicação em ambiente moderno com **Gitpod**.
+
+---
+
+## ✅ Funcionalidades
+
+- 📘 Cadastro de livros com:
+  - Título
+  - Autor
+  - Preço
+  - Quantidade em estoque
+- 🔍 Consulta de todos os livros cadastrados.
+- 🔄 Atualização e exclusão de livros.
+  
+---
+
+## 🧰 Tecnologias Utilizadas
 
 - Java 17
 - Spring Boot 3.4.5
+- Spring Web
 - Spring Data JPA
 - H2 Database
 - Maven
+- Gitpod
+
+---
